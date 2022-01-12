@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          <span style={{color: 'blue'}}>Charger</span> <span style={{color: 'gold'}}>Chariot</span>
         </h1>
 
         <p className={styles.description}>
@@ -54,15 +54,15 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://github.com/ZacharyDiamond/Charger-Chariot"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Charger Chariot is open-source on
           <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+            <Image src="/github.svg" alt="GitHub Logo" width={24} height={16} />
           </span>
-        </a>
+          GitHub!</a>
       </footer>
     </div>
   )
